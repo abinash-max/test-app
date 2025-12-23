@@ -1,0 +1,1271 @@
+{
+    "scrape_metadata": {
+      "scraped_at": "2025-11-19T15:00:07.882879+00:00",
+      "total_categories": 3,
+      "max_products_per_category": 5,
+      "output_directory": "data_collection/OUTPUTS/IKEA",
+      "total_products_scraped": 15,
+      "successful_scrapes": 15,
+      "failed_scrapes": 0
+    },
+    "categories": {
+      "bed": {
+        "category_name": "bed",
+        "category_url": "https://www.ikea.com/in/en/cat/beds-bm003/",
+        "products_count": 5,
+        "local_folder": "bed",
+        "products": [
+          {
+            "category": "bed",
+            "product_number": "s19241212",
+            "product_name": "SONGESAND",
+            "currency": "INR",
+            "price_raw": "18990",
+            "price_display": "18,990",
+            "product_url": "https://www.ikea.com/in/en/p/songesand-bed-frame-with-2-storage-boxes-white-s19241212/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1151019_pe884760_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1151019_pe884760_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0800861_ph162919_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0734692_pe739587_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1101546_pe866675_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1150683_pe884647_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1101557_pe866732_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0627013_ph149311_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0869131_pe658848_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0949142_pe799511_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0752955_pe747532_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1151019_pe884760_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0800861_ph162919_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0734692_pe739587_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1101546_pe866675_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1150683_pe884647_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__1101557_pe866732_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0627013_ph149311_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                },
+                {
+                  "index": 8,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0869131_pe658848_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_008.jpg",
+                  "filename": "image_008.jpg"
+                },
+                {
+                  "index": 9,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0949142_pe799511_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_009.jpg",
+                  "filename": "image_009.jpg"
+                },
+                {
+                  "index": 10,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-with-2-storage-boxes-white__0752955_pe747532_s5.jpg?f=xl",
+                  "local_path": "bed/s19241212_SONGESAND/images/image_010.jpg",
+                  "filename": "image_010.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.37,610 (incl. tax)",
+                "This classic bed frame will look great with your choice of textiles and bedroom furniture. You can even complete the look with other products from the SONGESAND series.",
+                "Ample storage space is hidden neatly under the bed in 2 large drawers. Perfect for storing duvets, pillows and bed linen.",
+                "SONGESAND bed storage boxes work perfectly with SONGESAND bed frame. They fit neatly into the space under the bed and will be flush against sides.",
+                "The storage boxes are easy to roll out and in thanks to the castors on the base.",
+                "You can separate your linens and duvets since the combination includes one narrow and one wide storage box.",
+                "Adjustable bed sides allow you to use mattresses of different thicknesses.",
+                "SKORVA midbeam is included in the price but packaged separately. It is required for the stability of the bed frame and to keep mattresses in place.",
+                "Slatted bed base, mattress and bedlinen are sold separately.",
+                "Combines with other furniture in the SONGESAND series."
+              ],
+              "designer": "IKEA of Sweden",
+              "pdp_price_display": "18,990",
+              "pdp_price_numeric": 18990,
+              "product_type": "Bed frame with 2 storage boxes, white, 160x200 cm (63x78 3/4 \")"
+            },
+            "scrape_status": "success",
+            "local_folder": "bed/s19241212_SONGESAND",
+            "images_folder": "bed/s19241212_SONGESAND/images",
+            "scraped_at": "2025-11-19T15:00:35.603648+00:00"
+          },
+          {
+            "category": "bed",
+            "product_number": "60571247",
+            "product_name": "SLATTUM",
+            "currency": "INR",
+            "price_raw": "11990",
+            "price_display": "11,990",
+            "product_url": "https://www.ikea.com/in/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-60571247/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259335_pe926650_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259335_pe926650_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259363_pe926663_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259338_pe926654_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259337_pe926651_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259364_pe926662_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259362_pe926661_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1296229_pe935740_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__0747518_pe744567_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259335_pe926650_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259363_pe926663_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259338_pe926654_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259337_pe926651_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259364_pe926662_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259362_pe926661_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1296229_pe935740_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                },
+                {
+                  "index": 8,
+                  "original_url": "https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__0747518_pe744567_s5.jpg?f=xl",
+                  "local_path": "bed/60571247_SLATTUM/images/image_008.jpg",
+                  "filename": "image_008.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.19,184 (incl. tax)",
+                "Convenient to take home as the entire bed frame, including slats, is snuggly packed into 1 flat package.",
+                "Quick to put together thanks to a straightforward assembly process – probably easier than you think!",
+                "The fixed cover is made from Vissle fabric in polyester, which is dope-dyed. It’s a durable material with a smooth weave and a nice two-tone effect.",
+                "The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom.",
+                "You can easily vacuum under the bed frame to keep the space clean and dust-free.",
+                "There’s plenty of space under the bed for storage boxes - perfect for storing extra duvets and pillows.",
+                "Slatted bed base and midbeam are included.",
+                "Mattress and bedlinen are sold separately.",
+                "The back of the headboard is finished with a black non-woven material."
+              ],
+              "designer": "David Wahl",
+              "pdp_price_display": "11,990",
+              "pdp_price_numeric": 11990,
+              "product_type": "Upholstered bed frame, Vissle dark grey, 160x200 cm (63x78 3/4 \")"
+            },
+            "scrape_status": "success",
+            "local_folder": "bed/60571247_SLATTUM",
+            "images_folder": "bed/60571247_SLATTUM/images",
+            "scraped_at": "2025-11-19T15:00:48.857881+00:00"
+          },
+          {
+            "category": "bed",
+            "product_number": "20458757",
+            "product_name": "GRIMSBU",
+            "currency": "INR",
+            "price_raw": "3490",
+            "price_display": "3,490",
+            "product_url": "https://www.ikea.com/in/en/p/grimsbu-bed-frame-grey-20458757/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0749251_pe747239_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0749251_pe747239_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__1101950_pe866876_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__1101951_pe866877_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0750181_pe747235_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0966522_ph175107_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0751412_pe746981_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0749251_pe747239_s5.jpg?f=xl",
+                  "local_path": "bed/20458757_GRIMSBU/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__1101950_pe866876_s5.jpg?f=xl",
+                  "local_path": "bed/20458757_GRIMSBU/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__1101951_pe866877_s5.jpg?f=xl",
+                  "local_path": "bed/20458757_GRIMSBU/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0750181_pe747235_s5.jpg?f=xl",
+                  "local_path": "bed/20458757_GRIMSBU/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0966522_ph175107_s5.jpg?f=xl",
+                  "local_path": "bed/20458757_GRIMSBU/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/grimsbu-bed-frame-grey__0751412_pe746981_s5.jpg?f=xl",
+                  "local_path": "bed/20458757_GRIMSBU/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.5,584 (incl. tax)",
+                "The compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space.",
+                "The powder-coated steel frame is strong, sturdy and easy to maintain.",
+                "There’s plenty of space under the bed for storage boxes - perfect for storing extra duvets and pillows.",
+                "Assembles in a few easy steps.",
+                "You can easily vacuum under the bed frame to keep the space clean and dust-free.",
+                "Slatted bed base, mattress and bedlinen are sold separately.",
+                "May be combined with KNARREVIK bedside table.",
+                "Combine this bed frame with a slatted bed base with a max. thickness of 4 cm to keep the slats hidden in the frame. The slats of a higher bed base may be visible along the sides of the bed."
+              ],
+              "designer": "IKEA of Sweden",
+              "pdp_price_display": "3,490",
+              "pdp_price_numeric": 3490,
+              "product_type": "Bed frame, grey, 90x200 cm (35 3/8x78 3/4 \")"
+            },
+            "scrape_status": "success",
+            "local_folder": "bed/20458757_GRIMSBU",
+            "images_folder": "bed/20458757_GRIMSBU/images",
+            "scraped_at": "2025-11-19T15:00:57.436034+00:00"
+          },
+          {
+            "category": "bed",
+            "product_number": "s09241062",
+            "product_name": "SONGESAND",
+            "currency": "INR",
+            "price_raw": "17990",
+            "price_display": "17,990",
+            "product_url": "https://www.ikea.com/in/en/p/songesand-bed-frame-brown-luroey-s09241062/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0800862_ph162917_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1273465_pe930077_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1101505_pe866684_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1150679_pe884643_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1101507_pe866686_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0949141_pe799512_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0752928_pe747519_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0800862_ph162917_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1273465_pe930077_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1101505_pe866684_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1150679_pe884643_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1101507_pe866686_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0949141_pe799512_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                },
+                {
+                  "index": 8,
+                  "original_url": "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0752928_pe747519_s5.jpg?f=xl",
+                  "local_path": "bed/s09241062_SONGESAND/images/image_008.jpg",
+                  "filename": "image_008.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.34,589 (incl. tax)",
+                "This classic bed frame will look great with your choice of textiles and bedroom furniture. You can even complete the look with other products from the SONGESAND series.",
+                "You can add SONGESAND bed storage boxes underneath. Perfect for storing extra duvets and pillows.",
+                "You can easily vacuum under the bed frame to keep the space clean and dust-free.",
+                "Adjustable bed sides allow you to use mattresses of different thicknesses.",
+                "LURÖY slatted bed base with curved slats helps to absorb your body weight and supports your body, while the open construction allows air to circulate and keeps the mattress fresh.",
+                "SKORVA midbeam is included in the price but packaged separately. It is required for the stability of the bed frame and to keep mattresses in place.",
+                "LURÖY slatted bed base is included in the price, but is packaged separately.",
+                "Add SONGESAND bed boxes to create lots of extra storage space",
+                "Mattress and bedlinen are sold separately.",
+                "Combines with other furniture in the SONGESAND series."
+              ],
+              "designer": "IKEA of Sweden",
+              "pdp_price_display": "17,990",
+              "pdp_price_numeric": 17990,
+              "product_type": "Bed frame, brown/Luröy, 160x200 cm (63x78 3/4 \")"
+            },
+            "scrape_status": "success",
+            "local_folder": "bed/s09241062_SONGESAND",
+            "images_folder": "bed/s09241062_SONGESAND/images",
+            "scraped_at": "2025-11-19T15:01:08.577977+00:00"
+          },
+          {
+            "category": "bed",
+            "product_number": "60458977",
+            "product_name": "IDANÄS",
+            "currency": "INR",
+            "price_raw": "52990",
+            "price_display": "52,990",
+            "product_url": "https://www.ikea.com/in/en/p/idanaes-upholstered-ottoman-bed-gunnared-dark-grey-60458977/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1012432_pe829085_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1012432_pe829085_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079006_pe857430_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079017_pe857434_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079029_pe857421_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079024_pe857417_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__0971583_pe811398_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1296226_pe935737_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1017104_pe830725_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1012432_pe829085_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079006_pe857430_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079017_pe857434_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079029_pe857421_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1079024_pe857417_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__0971583_pe811398_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1296226_pe935737_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                },
+                {
+                  "index": 8,
+                  "original_url": "https://www.ikea.com/in/en/images/products/idanaes-upholstered-ottoman-bed-gunnared-dark-grey__1017104_pe830725_s5.jpg?f=xl",
+                  "local_path": "bed/60458977_IDANÄS/images/image_008.jpg",
+                  "filename": "image_008.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.84,784 (incl. tax)",
+                "IDANÄS upholstered ottoman bed has a thick, sloping headboard that provides comfortable support for your back - perfect for lazy mornings and long evenings when reading a newspaper or a book in bed.",
+                "The storage space under the bed holds everything from extra duvets and pillows to seasonal clothes. Or why not the ironing board?",
+                "It’s easy to access your things under the bed thanks to the integrated lift mechanism. Simply pull the strap and the base lifts smoothly and easily.",
+                "The ottoman’s storage space has a protective lining as its base, which keeps your things off the floor and helps to keep them clean and dust free.",
+                "Classic button detailing makes the headboard eye-catching in any bedroom.",
+                "The upholstery is soft to the touch and makes bedtime even cosier.",
+                "GUNNARED fabric in dark grey is durable and gives the bedroom a timeless style.",
+                "Create a coordinated bedroom by combining this bed frame with other furniture from the IDANÄS series.",
+                "Mattress and bedlinen are sold separately.",
+                "Slatted bed base and midbeam are included.",
+                "The back of the headboard is finished with a black non-woven material."
+              ],
+              "designer": "Francis Cayouette",
+              "pdp_price_display": "52,990",
+              "pdp_price_numeric": 52990,
+              "product_type": "Upholstered ottoman bed, Gunnared dark grey, 180x200 cm (70 7/8x78 3/4 \")"
+            },
+            "scrape_status": "success",
+            "local_folder": "bed/60458977_IDANÄS",
+            "images_folder": "bed/60458977_IDANÄS/images",
+            "scraped_at": "2025-11-19T15:01:27.287309+00:00"
+          }
+        ]
+      },
+      "sofa": {
+        "category_name": "sofa",
+        "category_url": "https://www.ikea.com/in/en/cat/sofas-fu003/",
+        "products_count": 5,
+        "local_folder": "sofa",
+        "products": [
+          {
+            "category": "sofa",
+            "product_number": "70473251",
+            "product_name": "GAMMALBYN",
+            "currency": "INR",
+            "price_raw": "22990",
+            "price_display": "22,990",
+            "product_url": "https://www.ikea.com/in/en/p/gammalbyn-3-seat-sofa-grey-70473251/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868926_pe781434_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868926_pe781434_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868927_pe781435_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868929_pe781437_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868930_pe781438_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868931_pe781436_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868928_pe781439_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__1487319_pe1002780_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__1487318_pe1002781_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868926_pe781434_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868927_pe781435_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868929_pe781437_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868930_pe781438_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868931_pe781436_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868928_pe781439_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__1487319_pe1002780_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                },
+                {
+                  "index": 8,
+                  "original_url": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__1487318_pe1002781_s5.jpg?f=xl",
+                  "local_path": "sofa/70473251_GAMMALBYN/images/image_008.jpg",
+                  "filename": "image_008.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.36,784 (incl. tax)",
+                "Seat cushions filled with high resilience foam and polyester fibre wadding give comfortable support for your body, and easily regain their shape when you get up.",
+                "Back cushions filled with polyester fibres for soft comfort.",
+                "Fixed cover.",
+                "Available in different colours."
+              ],
+              "designer": "Machine wash, max 40°C, normal process.",
+              "pdp_price_display": "22,990",
+              "pdp_price_numeric": 22990,
+              "product_type": "3-seat sofa, grey"
+            },
+            "scrape_status": "success",
+            "local_folder": "sofa/70473251_GAMMALBYN",
+            "images_folder": "sofa/70473251_GAMMALBYN/images",
+            "scraped_at": "2025-11-19T15:01:55.677875+00:00"
+          },
+          {
+            "category": "sofa",
+            "product_number": "40595937",
+            "product_name": "GLOSTAD",
+            "currency": "INR",
+            "price_raw": "12990",
+            "price_display": "12,990",
+            "product_url": "https://www.ikea.com/in/en/p/glostad-3-seat-sofa-knisa-dark-grey-40595937/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1234948_pe917261_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1234948_pe917261_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235175_pe917294_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235915_pe917390_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235896_pe917385_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235914_pe917391_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235913_pe917389_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235176_pe917297_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1387199_pe964151_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1234948_pe917261_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235175_pe917294_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235915_pe917390_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235896_pe917385_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235914_pe917391_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235913_pe917389_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1235176_pe917297_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                },
+                {
+                  "index": 8,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-knisa-dark-grey__1387199_pe964151_s5.jpg?f=xl",
+                  "local_path": "sofa/40595937_GLOSTAD/images/image_008.jpg",
+                  "filename": "image_008.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.20,784 (incl. tax)",
+                "GLOSTAD sofa has a simple design which is also comfortable with its thick seat, padded armrests and soft back cushions that sit firmly in place.",
+                "The sofa's low weight makes it easy to move – in your current home or when moving to a new home.",
+                "The slightly angled legs make the sofa stable, while giving it a personal expression.",
+                "The design allows us to use the material more efficiently in production, which is good for the planet – and helps us give you a lower price.",
+                "A sofa with small, neat dimensions which is easy to furnish with, even when space is limited.",
+                "This cover is made from Knisa fabric in polyester, which is dope-dyed. It’s a durable material which has a soft feel.",
+                "Designed so that you can quickly and easily assemble it with just 10 screws.",
+                "10 year guarantee. Read about the terms in the guarantee brochure.",
+                "Fixed cover."
+              ],
+              "designer": "Jonas Hultqvist",
+              "pdp_price_display": "12,990",
+              "pdp_price_numeric": 12990,
+              "product_type": "3-seat sofa, Knisa dark grey"
+            },
+            "scrape_status": "success",
+            "local_folder": "sofa/40595937_GLOSTAD",
+            "images_folder": "sofa/40595937_GLOSTAD/images",
+            "scraped_at": "2025-11-19T15:02:04.763409+00:00"
+          },
+          {
+            "category": "sofa",
+            "product_number": "s09509008",
+            "product_name": "EKTORP",
+            "currency": "INR",
+            "price_raw": "29990",
+            "price_display": "29,990",
+            "product_url": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-kilanda-dark-blue-s09509008/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194843_pe902111_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194843_pe902111_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194842_pe902092_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194822_pe902072_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194823_pe902091_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__0717901_pe731384_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__0733160_pe738876_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194843_pe902111_s5.jpg?f=xl",
+                  "local_path": "sofa/s09509008_EKTORP/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194842_pe902092_s5.jpg?f=xl",
+                  "local_path": "sofa/s09509008_EKTORP/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194822_pe902072_s5.jpg?f=xl",
+                  "local_path": "sofa/s09509008_EKTORP/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__1194823_pe902091_s5.jpg?f=xl",
+                  "local_path": "sofa/s09509008_EKTORP/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__0717901_pe731384_s5.jpg?f=xl",
+                  "local_path": "sofa/s09509008_EKTORP/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-dark-blue__0733160_pe738876_s5.jpg?f=xl",
+                  "local_path": "sofa/s09509008_EKTORP/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.75,371 (incl. tax)",
+                "Reversible back cushions filled with polyester fibres provide soft support for your back and two different sides to wear.",
+                "Seat cushions filled with high resilience foam and polyester fibre wadding give comfortable support for your body, and easily regain their shape when you get up.",
+                "The Kilanda fabric with a melange effect is made of at least 90 percent recycled polyester and has a soft surface.",
+                "The cover is easy to keep clean since it is removable and machine washable.",
+                "You can choose from many different covers and find one that you like and suits your home."
+              ],
+              "designer": "Machine wash, max 40°C, normal process.",
+              "pdp_price_display": "29,990",
+              "pdp_price_numeric": 29990,
+              "product_type": "3-seat sofa, Kilanda dark blue"
+            },
+            "scrape_status": "success",
+            "local_folder": "sofa/s09509008_EKTORP",
+            "images_folder": "sofa/s09509008_EKTORP/images",
+            "scraped_at": "2025-11-19T15:02:13.950472+00:00"
+          },
+          {
+            "category": "sofa",
+            "product_number": "s49272688",
+            "product_name": "LANDSKRONA",
+            "currency": "INR",
+            "price_raw": "93490",
+            "price_display": "93,490",
+            "product_url": "https://www.ikea.com/in/en/p/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood-s49272688/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0602395_pe680328_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0602395_pe680328_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0825471_pe680327_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0647208_ph150463_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0813420_ph166491_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0813418_ph166262_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0825479_pe711004_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0712952_pe729157_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__1039701_pe840436_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0602395_pe680328_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0825471_pe680327_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0647208_ph150463_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0813420_ph166491_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0813418_ph166262_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0825479_pe711004_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__0712952_pe729157_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                },
+                {
+                  "index": 8,
+                  "original_url": "https://www.ikea.com/in/en/images/products/landskrona-3-seat-sofa-with-chaise-longue-gunnared-light-green-wood__1039701_pe840436_s5.jpg?f=xl",
+                  "local_path": "sofa/s49272688_LANDSKRONA/images/image_008.jpg",
+                  "filename": "image_008.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.1,28,236 (incl. tax)",
+                "The fabric cover has a warm and welcoming look, while the tight fit gives the sofa a neat and stylish expression.",
+                "Seat cushions filled with high-resilience foam and polyester fibre wadding provide great seating comfort.",
+                "Removable armrests make it easy to add on a chaise longue.",
+                "You can place the chaise longue section to the left or right of the sofa, and switch whenever you like.",
+                "Fixed cover."
+              ],
+              "designer": "Tord Björklund",
+              "pdp_price_display": "93,490",
+              "pdp_price_numeric": 93490,
+              "product_type": "3-seat sofa, with chaise longue/Gunnared light green/wood"
+            },
+            "scrape_status": "success",
+            "local_folder": "sofa/s49272688_LANDSKRONA",
+            "images_folder": "sofa/s49272688_LANDSKRONA/images",
+            "scraped_at": "2025-11-19T15:02:24.171928+00:00"
+          },
+          {
+            "category": "sofa",
+            "product_number": "s49578599",
+            "product_name": "GLOSTAD",
+            "currency": "INR",
+            "price_raw": "16480",
+            "price_display": "16,480",
+            "product_url": "https://www.ikea.com/in/en/p/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey-s49578599/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1234952_pe917265_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1234952_pe917265_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1235200_pe917305_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1235176_pe917297_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1387199_pe964151_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1387091_pe964080_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1234952_pe917265_s5.jpg?f=xl",
+                  "local_path": "sofa/s49578599_GLOSTAD/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1235200_pe917305_s5.jpg?f=xl",
+                  "local_path": "sofa/s49578599_GLOSTAD/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1235176_pe917297_s5.jpg?f=xl",
+                  "local_path": "sofa/s49578599_GLOSTAD/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1387199_pe964151_s5.jpg?f=xl",
+                  "local_path": "sofa/s49578599_GLOSTAD/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/glostad-3-seat-sofa-with-chaise-longue-knisa-dark-grey__1387091_pe964080_s5.jpg?f=xl",
+                  "local_path": "sofa/s49578599_GLOSTAD/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.24,016 (incl. tax)",
+                "A sofa with small, neat dimensions which is easy to furnish with, even when space is limited.",
+                "The design allows us to use the material more efficiently in production, which is good for the planet – and helps us give you a lower price.",
+                "The slightly angled legs make the sofa stable, while giving it a personal expression.",
+                "The sofa's low weight makes it easy to move – in your current home or when moving to a new home.",
+                "This cover is made from Knisa fabric in polyester, which is dope-dyed. It’s a durable material which has a soft feel.",
+                "10 year guarantee. Read about the terms in the guarantee brochure.",
+                "Fixed cover."
+              ],
+              "designer": "Vacuum clean.",
+              "pdp_price_display": "16,480",
+              "pdp_price_numeric": 16480,
+              "product_type": "3-seat sofa with chaise longue, Knisa dark grey"
+            },
+            "scrape_status": "success",
+            "local_folder": "sofa/s49578599_GLOSTAD",
+            "images_folder": "sofa/s49578599_GLOSTAD/images",
+            "scraped_at": "2025-11-19T15:02:42.532824+00:00"
+          }
+        ]
+      },
+      "armchair": {
+        "category_name": "armchair",
+        "category_url": "https://www.ikea.com/in/en/cat/armchairs-fu006/",
+        "products_count": 5,
+        "local_folder": "armchair",
+        "products": [
+          {
+            "category": "armchair",
+            "product_number": "70533491",
+            "product_name": "EKENÄSET",
+            "currency": "INR",
+            "price_raw": "17990",
+            "price_display": "17,990",
+            "product_url": "https://www.ikea.com/in/en/p/ekenaeset-armchair-kilanda-light-beige-70533491/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109687_pe870153_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109687_pe870153_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1179060_pe895831_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1110707_pe870568_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109720_pe870187_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__0940909_pe795235_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109687_pe870153_s5.jpg?f=xl",
+                  "local_path": "armchair/70533491_EKENÄSET/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1179060_pe895831_s5.jpg?f=xl",
+                  "local_path": "armchair/70533491_EKENÄSET/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1110707_pe870568_s5.jpg?f=xl",
+                  "local_path": "armchair/70533491_EKENÄSET/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109720_pe870187_s5.jpg?f=xl",
+                  "local_path": "armchair/70533491_EKENÄSET/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__0940909_pe795235_s5.jpg?f=xl",
+                  "local_path": "armchair/70533491_EKENÄSET/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.28,784 (incl. tax)",
+                "Clean lines and supportive comfort, regardless if you’re reading, socialising with friends or just relaxing for a moment.",
+                "Each armchair has a unique expression since the wooden frame is first stained in a dark-brown tone and then covered with clear lacquer that makes the wood’s natural grains visible.",
+                "High-resilience foam in the seat and back makes the armchair regain its shape when you stand up, and it’s complemented with zigzag springs in the seat and supportive fabric in the back for a firm comfort.",
+                "You will sit stable and steady for years to come since the frame is made of hardwearing solid wood. You also enjoy a relaxed sitting position thanks to the angled backrest.",
+                "The tall legs in solid wood make it easy to vacuum or reach things hiding under the armchair to avoid clutter.",
+                "The elegant, fixed cover has a perfect fit that will last over time. You can choose from different covers and find one that suits you and your home.",
+                "Fixed cover."
+              ],
+              "designer": "IKEA of Sweden",
+              "pdp_price_display": "17,990",
+              "pdp_price_numeric": 17990,
+              "product_type": "Armchair, Kilanda light beige"
+            },
+            "scrape_status": "success",
+            "local_folder": "armchair/70533491_EKENÄSET",
+            "images_folder": "armchair/70533491_EKENÄSET/images",
+            "scraped_at": "2025-11-19T15:03:11.883724+00:00"
+          },
+          {
+            "category": "armchair",
+            "product_number": "s89429263",
+            "product_name": "POÄNG",
+            "currency": "INR",
+            "price_raw": "9990",
+            "price_display": "9,990",
+            "product_url": "https://www.ikea.com/in/en/p/poaeng-rocking-chair-brown-knisa-light-beige-s89429263/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0572148_pe667313_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0572148_pe667313_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0837389_pe667314_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0837391_pe667315_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0840409_pe666958_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0617566_pe688048_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0572148_pe667313_s5.jpg?f=xl",
+                  "local_path": "armchair/s89429263_POÄNG/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0837389_pe667314_s5.jpg?f=xl",
+                  "local_path": "armchair/s89429263_POÄNG/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0837391_pe667315_s5.jpg?f=xl",
+                  "local_path": "armchair/s89429263_POÄNG/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0840409_pe666958_s5.jpg?f=xl",
+                  "local_path": "armchair/s89429263_POÄNG/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-rocking-chair-brown-knisa-light-beige__0617566_pe688048_s5.jpg?f=xl",
+                  "local_path": "armchair/s89429263_POÄNG/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.16,464 (incl. tax)",
+                "The high back gives good support for your neck.",
+                "A range of various seat cushions makes it easy to change the look of your POÄNG and your living room.",
+                "To sit even more comfortably and relaxed, you can use the armchair together with POÄNG footstool.",
+                "The cover is easy to keep clean since it is removable and can be machine washed.",
+                "10-year warranty. Read about the terms in the warranty brochure.",
+                "Possible to separate for recycling or energy recovery if available in your community."
+              ],
+              "designer": "Vacuum clean.",
+              "pdp_price_display": "9,990",
+              "pdp_price_numeric": 9990,
+              "product_type": "Rocking-chair, brown/Knisa light beige"
+            },
+            "scrape_status": "success",
+            "local_folder": "armchair/s89429263_POÄNG",
+            "images_folder": "armchair/s89429263_POÄNG/images",
+            "scraped_at": "2025-11-19T15:03:33.357944+00:00"
+          },
+          {
+            "category": "armchair",
+            "product_number": "10535544",
+            "product_name": "HERRÅKRA",
+            "currency": "INR",
+            "price_raw": "8990",
+            "price_display": "8,990",
+            "product_url": "https://www.ikea.com/in/en/p/herrakra-armchair-diseroed-dark-yellow-10535544/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213667_pe911203_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213667_pe911203_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1272971_ph195926_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213666_pe911202_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213665_pe911207_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1413299_ph196335_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213664_pe911200_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1272841_pe929796_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213667_pe911203_s5.jpg?f=xl",
+                  "local_path": "armchair/10535544_HERRÅKRA/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1272971_ph195926_s5.jpg?f=xl",
+                  "local_path": "armchair/10535544_HERRÅKRA/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213666_pe911202_s5.jpg?f=xl",
+                  "local_path": "armchair/10535544_HERRÅKRA/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213665_pe911207_s5.jpg?f=xl",
+                  "local_path": "armchair/10535544_HERRÅKRA/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1413299_ph196335_s5.jpg?f=xl",
+                  "local_path": "armchair/10535544_HERRÅKRA/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1213664_pe911200_s5.jpg?f=xl",
+                  "local_path": "armchair/10535544_HERRÅKRA/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                },
+                {
+                  "index": 7,
+                  "original_url": "https://www.ikea.com/in/en/images/products/herrakra-armchair-diseroed-dark-yellow__1272841_pe929796_s5.jpg?f=xl",
+                  "local_path": "armchair/10535544_HERRÅKRA/images/image_007.jpg",
+                  "filename": "image_007.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.14,384 (incl. tax)",
+                "A bold design with a strong character and charmingly rounded shapes, upholstered in an easy-care fabric. HERRÅKRA armchair goes well in your living room.",
+                "The armchair's bold, expressive shape with slightly angled legs adds character to any room and context.",
+                "10-year warranty. Read about the terms in the warranty brochure.",
+                "The cover has been treated with easy-care, which means that spills won’t seep into the fabric, but stay on the surface and are easily absorbed with a dry cloth.",
+                "This cover is made from Diseröd fabric in polyester, which is dope-dyed. It’s a durable fabric with 3 threads in different colours, resulting in the texture forming a pattern of squares.",
+                "The backrest, armrests and low seat together provide a supportive comfort with an embracing feel.",
+                "The rounded shape of the armrests and backrest, and the way they meet each other, all makes a nice design detail that resembles the shape of a flower."
+              ],
+              "designer": "Ola Wihlborg",
+              "pdp_price_display": "8,990",
+              "pdp_price_numeric": 8990,
+              "product_type": "Armchair, Diseröd dark yellow"
+            },
+            "scrape_status": "success",
+            "local_folder": "armchair/10535544_HERRÅKRA",
+            "images_folder": "armchair/10535544_HERRÅKRA/images",
+            "scraped_at": "2025-11-19T15:03:48.339349+00:00"
+          },
+          {
+            "category": "armchair",
+            "product_number": "s19240788",
+            "product_name": "POÄNG",
+            "currency": "INR",
+            "price_raw": "7990",
+            "price_display": "7,990",
+            "product_url": "https://www.ikea.com/in/en/p/poaeng-armchair-birch-veneer-knisa-light-beige-s19240788/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0571500_pe666933_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0571500_pe666933_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0837298_pe666936_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0837295_pe666935_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0837285_pe666934_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__1314996_pe940336_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0571500_pe666933_s5.jpg?f=xl",
+                  "local_path": "armchair/s19240788_POÄNG/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0837298_pe666936_s5.jpg?f=xl",
+                  "local_path": "armchair/s19240788_POÄNG/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0837295_pe666935_s5.jpg?f=xl",
+                  "local_path": "armchair/s19240788_POÄNG/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0837285_pe666934_s5.jpg?f=xl",
+                  "local_path": "armchair/s19240788_POÄNG/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__1314996_pe940336_s5.jpg?f=xl",
+                  "local_path": "armchair/s19240788_POÄNG/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.13,443 (incl. tax)",
+                "The layer-glued bent wood frame gives the armchair a comfortable resilience, making it perfect to relax in.",
+                "The high back gives good support for your neck.",
+                "A range of various seat cushions makes it easy to change the look of your POÄNG and your living room.",
+                "To sit even more comfortably and relaxed, you can use the armchair together with POÄNG footstool.",
+                "Possible to separate for recycling or energy recovery if available in your community."
+              ],
+              "designer": "IKEA of Sweden/Noboru Nakamura",
+              "pdp_price_display": "7,990",
+              "pdp_price_numeric": 7990,
+              "product_type": "Armchair, birch veneer/Knisa light beige"
+            },
+            "scrape_status": "success",
+            "local_folder": "armchair/s19240788_POÄNG",
+            "images_folder": "armchair/s19240788_POÄNG/images",
+            "scraped_at": "2025-11-19T15:04:39.937473+00:00"
+          },
+          {
+            "category": "armchair",
+            "product_number": "s49487863",
+            "product_name": "STRANDMON",
+            "currency": "INR",
+            "price_raw": "25980",
+            "price_display": "25,980",
+            "product_url": "https://www.ikea.com/in/en/p/strandmon-armchair-and-footstool-skiftebo-yellow-s49487863/",
+            "thumbnail_url": "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__1094844_pe863644_s5.jpg?f=xxs",
+            "detail": {
+              "images": [
+                "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__1094844_pe863644_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0837297_pe601176_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0837284_pe583756_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0841601_pe585470_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0963366_pe808498_s5.jpg?f=xl",
+                "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0629849_pe694517_s5.jpg?f=xl"
+              ],
+              "downloaded_images": [
+                {
+                  "index": 1,
+                  "original_url": "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__1094844_pe863644_s5.jpg?f=xl",
+                  "local_path": "armchair/s49487863_STRANDMON/images/image_001.jpg",
+                  "filename": "image_001.jpg"
+                },
+                {
+                  "index": 2,
+                  "original_url": "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0837297_pe601176_s5.jpg?f=xl",
+                  "local_path": "armchair/s49487863_STRANDMON/images/image_002.jpg",
+                  "filename": "image_002.jpg"
+                },
+                {
+                  "index": 3,
+                  "original_url": "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0837284_pe583756_s5.jpg?f=xl",
+                  "local_path": "armchair/s49487863_STRANDMON/images/image_003.jpg",
+                  "filename": "image_003.jpg"
+                },
+                {
+                  "index": 4,
+                  "original_url": "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0841601_pe585470_s5.jpg?f=xl",
+                  "local_path": "armchair/s49487863_STRANDMON/images/image_004.jpg",
+                  "filename": "image_004.jpg"
+                },
+                {
+                  "index": 5,
+                  "original_url": "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0963366_pe808498_s5.jpg?f=xl",
+                  "local_path": "armchair/s49487863_STRANDMON/images/image_005.jpg",
+                  "filename": "image_005.jpg"
+                },
+                {
+                  "index": 6,
+                  "original_url": "https://www.ikea.com/in/en/images/products/strandmon-armchair-and-footstool-skiftebo-yellow__0629849_pe694517_s5.jpg?f=xl",
+                  "local_path": "armchair/s49487863_STRANDMON/images/image_006.jpg",
+                  "filename": "image_006.jpg"
+                }
+              ],
+              "details_paragraphs": [
+                "MRP Rs.38,969 (incl. tax)",
+                "This wing chair and footstool are the perfect combination when you want to stretch out, rest your feet and sit extra comfortably and relaxed.",
+                "You can easily move the footstool around to wherever you need it and use it as an extra seat, for example when you have friends visiting.",
+                "The wing chair has a high back which provides extra support for your neck, so that you can lean your head back when resting.",
+                "Round armrests, soft lines and an inviting upholstery give this wing chair a soft embracing feel.",
+                "This cover is made from durable Skiftebo polyester fabric. It has a nice lustre and a two-tone effect with a light texture that feels firm to the touch.",
+                "The armchair and footstool come in separate packages."
+              ],
+              "designer": "Do not wash.",
+              "pdp_price_display": "25,980",
+              "pdp_price_numeric": 25980,
+              "product_type": "Armchair and footstool, Skiftebo yellow"
+            },
+            "scrape_status": "success",
+            "local_folder": "armchair/s49487863_STRANDMON",
+            "images_folder": "armchair/s49487863_STRANDMON/images",
+            "scraped_at": "2025-11-19T15:05:29.976842+00:00"
+          }
+        ]
+      }
+    }
+  }

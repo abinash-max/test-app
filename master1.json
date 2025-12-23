@@ -1,0 +1,983 @@
+{
+  "scrape_metadata": {
+    "scraped_at": "2025-12-09T11:40:18.419774+00:00",
+    "output_directory": "OUTPUTS/WESTSIDE"
+  },
+  "categories": {
+    "mens_shirts": {
+      "category_name": "mens_shirts",
+      "url": "https://www.westside.com/collections/casual-shirts-for-men",
+      "products_count": 6,
+      "local_folder": "mens_shirts",
+      "products": [
+        {
+          "category": "mens_shirts",
+          "product_number": "8004118708277",
+          "product_name": "Nuon Beige Checks Printed Relaxed-Fit Cotton Shirt",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/nuon-beige-checks-printed-relaxed-fit-cotton-shirt-301042333",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_3.jpg?v=1764839407",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_1.jpg?v=1764839407",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_2.jpg?v=1764839407",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_3.jpg?v=1764839407",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_4.jpg?v=1764839386"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_1.jpg?v=1764839407",
+                "local_path": "mens_shirts/8004118708277_Nuon_Beige_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_2.jpg?v=1764839407",
+                "local_path": "mens_shirts/8004118708277_Nuon_Beige_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_3.jpg?v=1764839407",
+                "local_path": "mens_shirts/8004118708277_Nuon_Beige_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042333BEIGE_4.jpg?v=1764839386",
+                "local_path": "mens_shirts/8004118708277_Nuon_Beige_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Nuon introduces this beige check shirt crafted from breathable fabric for stay-cool comfort. Styled with a classic collar, button placket, and a single chest pocket, it\u2019s shaped in a relaxed frame that keeps the look effortless. A go-to for easy, understated style."
+            ],
+            "designer": "Nuon",
+            "pdp_price_display": "1499.00",
+            "product_type": "Casual Shirts"
+          },
+          "scrape_status": "success",
+          "local_folder": "mens_shirts/8004118708277_Nuon_Beige_Checks_Printed_Relaxed-Fit_Cotton_Shirt",
+          "images_folder": "mens_shirts/8004118708277_Nuon_Beige_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images",
+          "scraped_at": "2025-12-09T11:40:18.705328+00:00"
+        },
+        {
+          "category": "mens_shirts",
+          "product_number": "8004118413365",
+          "product_name": "Nuon Black Abstract Design Relaxed-Fit Shirt",
+          "currency": "INR",
+          "price_raw": "999.00",
+          "price_display": "999.00",
+          "product_url": "https://www.westside.com/products/nuon-black-abstract-design-relaxed-fit-shirt-301039099",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_3.jpg?v=1764758044",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_1.jpg?v=1764758037",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_2.jpg?v=1764758037",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_3.jpg?v=1764758044",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_4.jpg?v=1764758036"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_1.jpg?v=1764758037",
+                "local_path": "mens_shirts/8004118413365_Nuon_Black_Abstract_Design_Relaxed-Fit_Shirt/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_2.jpg?v=1764758037",
+                "local_path": "mens_shirts/8004118413365_Nuon_Black_Abstract_Design_Relaxed-Fit_Shirt/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_3.jpg?v=1764758044",
+                "local_path": "mens_shirts/8004118413365_Nuon_Black_Abstract_Design_Relaxed-Fit_Shirt/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301039099BLACK_4.jpg?v=1764758036",
+                "local_path": "mens_shirts/8004118413365_Nuon_Black_Abstract_Design_Relaxed-Fit_Shirt/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Effortlessly cool, this black shirt from Nuon showcases an abstract print over a crinkle-textured fabric for a tactile finish. Designed with a camp collar, short sleeves, and a button placket, it\u2019s crafted from quality material for lasting comfort."
+            ],
+            "designer": "Nuon",
+            "pdp_price_display": "999.00",
+            "product_type": "Casual Shirts"
+          },
+          "scrape_status": "success",
+          "local_folder": "mens_shirts/8004118413365_Nuon_Black_Abstract_Design_Relaxed-Fit_Shirt",
+          "images_folder": "mens_shirts/8004118413365_Nuon_Black_Abstract_Design_Relaxed-Fit_Shirt/images",
+          "scraped_at": "2025-12-09T11:40:18.792066+00:00"
+        },
+        {
+          "category": "mens_shirts",
+          "product_number": "8004118085685",
+          "product_name": "WES Casuals Black Corduroy Relaxed-Fit Shirt",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/wes-casuals-black-corduroy-relaxed-fit-shirt-301042325",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_3.jpg?v=1765186613",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_1.jpg?v=1765186613",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325001_2.jpg?v=1765186613",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_2.jpg?v=1765186613",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_3.jpg?v=1765186613",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_4.jpg?v=1765186613"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_1.jpg?v=1765186613",
+                "local_path": "mens_shirts/8004118085685_WES_Casuals_Black_Corduroy_Relaxed-Fit_Shirt/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325001_2.jpg?v=1765186613",
+                "local_path": "mens_shirts/8004118085685_WES_Casuals_Black_Corduroy_Relaxed-Fit_Shirt/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_2.jpg?v=1765186613",
+                "local_path": "mens_shirts/8004118085685_WES_Casuals_Black_Corduroy_Relaxed-Fit_Shirt/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_3.jpg?v=1765186613",
+                "local_path": "mens_shirts/8004118085685_WES_Casuals_Black_Corduroy_Relaxed-Fit_Shirt/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              },
+              {
+                "index": 5,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042325BLACK_4.jpg?v=1765186613",
+                "local_path": "mens_shirts/8004118085685_WES_Casuals_Black_Corduroy_Relaxed-Fit_Shirt/images/image_005.jpg",
+                "filename": "image_005.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "This black shirt from WES Casuals reimagines casual dressing with a touch of sophistication. Crafted from pure cotton with a corduroy texture, it features a button-down collar, full sleeves and a front pocket for classic appeal. Cut in a relaxed fit, it offers an easy silhouette that transitions seamlessly from workdays to weekends."
+            ],
+            "designer": "WES Casuals",
+            "pdp_price_display": "1499.00",
+            "product_type": "Casual Shirts"
+          },
+          "scrape_status": "success",
+          "local_folder": "mens_shirts/8004118085685_WES_Casuals_Black_Corduroy_Relaxed-Fit_Shirt",
+          "images_folder": "mens_shirts/8004118085685_WES_Casuals_Black_Corduroy_Relaxed-Fit_Shirt/images",
+          "scraped_at": "2025-12-09T11:40:18.926727+00:00"
+        },
+        {
+          "category": "mens_shirts",
+          "product_number": "8004117823541",
+          "product_name": "WES Casuals Brown Checkered Relaxed-Fit Cotton Shirt",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/wes-casuals-brown-checkered-relaxed-fit-cotton-shirt-301042318",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_1.jpg?v=1764758068",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_1.jpg?v=1764758068",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_2.jpg?v=1764758068",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_3.jpg?v=1764758068",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_4.jpg?v=1764758068"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_1.jpg?v=1764758068",
+                "local_path": "mens_shirts/8004117823541_WES_Casuals_Brown_Checkered_Relaxed-Fit_Cotton_Shirt/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_2.jpg?v=1764758068",
+                "local_path": "mens_shirts/8004117823541_WES_Casuals_Brown_Checkered_Relaxed-Fit_Cotton_Shirt/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_3.jpg?v=1764758068",
+                "local_path": "mens_shirts/8004117823541_WES_Casuals_Brown_Checkered_Relaxed-Fit_Cotton_Shirt/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042318CAMEL_4.jpg?v=1764758068",
+                "local_path": "mens_shirts/8004117823541_WES_Casuals_Brown_Checkered_Relaxed-Fit_Cotton_Shirt/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Make your weekend plans easier with this brown check shirt from WES Casuals. Cut in a relaxed profile, it\u2019s crafted from pure cotton that feels breathable through the day. The button-down collar and full sleeves keep it neat, while the chest pocket adds everyday practicality."
+            ],
+            "designer": "WES Casuals",
+            "pdp_price_display": "1499.00",
+            "product_type": "Casual Shirts"
+          },
+          "scrape_status": "success",
+          "local_folder": "mens_shirts/8004117823541_WES_Casuals_Brown_Checkered_Relaxed-Fit_Cotton_Shirt",
+          "images_folder": "mens_shirts/8004117823541_WES_Casuals_Brown_Checkered_Relaxed-Fit_Cotton_Shirt/images",
+          "scraped_at": "2025-12-09T11:40:19.023558+00:00"
+        },
+        {
+          "category": "mens_shirts",
+          "product_number": "8004482727989",
+          "product_name": "WES Casuals Brown Checks Design Relaxed-Fit Cotton Shirt",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/wes-casuals-brown-checks-design-relaxed-fit-cotton-shirt-301042319",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_3.jpg?v=1764871264",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_1.jpg?v=1764871263",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_2.jpg?v=1764871197",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_3.jpg?v=1764871264",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_4.jpg?v=1764871256"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_1.jpg?v=1764871263",
+                "local_path": "mens_shirts/8004482727989_WES_Casuals_Brown_Checks_Design_Relaxed-Fit_Cotton_Shirt/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_2.jpg?v=1764871197",
+                "local_path": "mens_shirts/8004482727989_WES_Casuals_Brown_Checks_Design_Relaxed-Fit_Cotton_Shirt/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_3.jpg?v=1764871264",
+                "local_path": "mens_shirts/8004482727989_WES_Casuals_Brown_Checks_Design_Relaxed-Fit_Cotton_Shirt/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042319BROWN_4.jpg?v=1764871256",
+                "local_path": "mens_shirts/8004482727989_WES_Casuals_Brown_Checks_Design_Relaxed-Fit_Cotton_Shirt/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "WES Casuals brings an earthy palette to this relaxed-fit brown check shirt\u2014your go-to for slow Sundays and impromptu plans. Soft cotton lends all-day ease, while the classic button-down collar, full sleeves, and a single chest pocket ground the look in timeless utility."
+            ],
+            "designer": "WES Casuals",
+            "pdp_price_display": "1499.00",
+            "product_type": "Casual Shirts"
+          },
+          "scrape_status": "success",
+          "local_folder": "mens_shirts/8004482727989_WES_Casuals_Brown_Checks_Design_Relaxed-Fit_Cotton_Shirt",
+          "images_folder": "mens_shirts/8004482727989_WES_Casuals_Brown_Checks_Design_Relaxed-Fit_Cotton_Shirt/images",
+          "scraped_at": "2025-12-09T11:40:19.117184+00:00"
+        },
+        {
+          "category": "mens_shirts",
+          "product_number": "8004118315061",
+          "product_name": "WES Casuals Brown Checks Printed Relaxed-Fit Cotton Shirt",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/wes-casuals-brown-checks-printed-relaxed-fit-cotton-shirt-301042322",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_3.jpg?v=1764758049",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_1.jpg?v=1764758039",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_2.jpg?v=1764758113",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_3.jpg?v=1764758049",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_4.jpg?v=1764758109"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_1.jpg?v=1764758039",
+                "local_path": "mens_shirts/8004118315061_WES_Casuals_Brown_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_2.jpg?v=1764758113",
+                "local_path": "mens_shirts/8004118315061_WES_Casuals_Brown_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_3.jpg?v=1764758049",
+                "local_path": "mens_shirts/8004118315061_WES_Casuals_Brown_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042322BROWN_4.jpg?v=1764758109",
+                "local_path": "mens_shirts/8004118315061_WES_Casuals_Brown_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Built for your off-duty rotation, this brown shirt from WES Casuals keeps things simple and comfortable. The soft cotton fabric gives it an easy, relaxed fit, while the checkered print adds just the right amount of detail. Finished with a button-down collar, full sleeves, and a chest pocket, it\u2019s the kind of shirt you throw on for laid-back plans and casual days out."
+            ],
+            "designer": "WES Casuals",
+            "pdp_price_display": "1499.00",
+            "product_type": "Casual Shirts"
+          },
+          "scrape_status": "success",
+          "local_folder": "mens_shirts/8004118315061_WES_Casuals_Brown_Checks_Printed_Relaxed-Fit_Cotton_Shirt",
+          "images_folder": "mens_shirts/8004118315061_WES_Casuals_Brown_Checks_Printed_Relaxed-Fit_Cotton_Shirt/images",
+          "scraped_at": "2025-12-09T11:40:19.208680+00:00"
+        }
+      ]
+    },
+    "womens_wear": {
+      "category_name": "womens_wear",
+      "url": "https://www.westside.com/collections/blue-ethnic-suits-for-women",
+      "products_count": 6,
+      "local_folder": "womens_wear",
+      "products": [
+        {
+          "category": "womens_wear",
+          "product_number": "7990070804533",
+          "product_name": "Vark Blue Embellished Ethnic Set",
+          "currency": "INR",
+          "price_raw": "2599.00",
+          "price_display": "2599.00",
+          "product_url": "https://www.westside.com/products/vark-blue-embellished-ethnic-set-301036227",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_3.jpg?v=1761921351",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_1.jpg?v=1761921350",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_2.jpg?v=1761921351",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_3.jpg?v=1761921351",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_4.jpg?v=1761921348"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_1.jpg?v=1761921350",
+                "local_path": "womens_wear/7990070804533_Vark_Blue_Embellished_Ethnic_Set/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_2.jpg?v=1761921351",
+                "local_path": "womens_wear/7990070804533_Vark_Blue_Embellished_Ethnic_Set/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_3.jpg?v=1761921351",
+                "local_path": "womens_wear/7990070804533_Vark_Blue_Embellished_Ethnic_Set/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301036227TEAL_4.jpg?v=1761921348",
+                "local_path": "womens_wear/7990070804533_Vark_Blue_Embellished_Ethnic_Set/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Designed for days that call for understated elegance, this blue ethnic set from Vark captures timeless sophistication. The tunic, crafted from breathable fabric, features floral embellishments, a cutaway collar, a short zipper and full sleeves. Elasticated pants complete the set, ensuring effortless movement and style. This contemporary ensemble transitions effortlessly from festive gatherings to evening celebrations."
+            ],
+            "designer": "Vark",
+            "pdp_price_display": "2599.00",
+            "product_type": "Ethnic Suits"
+          },
+          "scrape_status": "success",
+          "local_folder": "womens_wear/7990070804533_Vark_Blue_Embellished_Ethnic_Set",
+          "images_folder": "womens_wear/7990070804533_Vark_Blue_Embellished_Ethnic_Set/images",
+          "scraped_at": "2025-12-09T11:40:19.475691+00:00"
+        },
+        {
+          "category": "womens_wear",
+          "product_number": "7990071033909",
+          "product_name": "Vark Dusty Blue Anarkali Ethnic Set",
+          "currency": "INR",
+          "price_raw": "2599.00",
+          "price_display": "2599.00",
+          "product_url": "https://www.westside.com/products/vark-dusty-blue-anarkali-ethnic-set-301041182",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_3.jpg?v=1761921353",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_1.jpg?v=1761921358",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_2.jpg?v=1761921350",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_3.jpg?v=1761921353",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_4.jpg?v=1761921350"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_1.jpg?v=1761921358",
+                "local_path": "womens_wear/7990071033909_Vark_Dusty_Blue_Anarkali_Ethnic_Set/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_2.jpg?v=1761921350",
+                "local_path": "womens_wear/7990071033909_Vark_Dusty_Blue_Anarkali_Ethnic_Set/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_3.jpg?v=1761921353",
+                "local_path": "womens_wear/7990071033909_Vark_Dusty_Blue_Anarkali_Ethnic_Set/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041182PEPPERMINT_4.jpg?v=1761921350",
+                "local_path": "womens_wear/7990071033909_Vark_Dusty_Blue_Anarkali_Ethnic_Set/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Radiate festive charm in this dusty blue ethnic set from Vark, featuring an anarkali-style kurta with a split neck and three-quarter sleeves. It is paired with elasticated palazzos that offer ease of movement and day-long comfort. The lightweight fabric drapes beautifully, while the net dupatta with a zari-embroidered hem adds a graceful finishing touch to the ensemble."
+            ],
+            "designer": "Vark",
+            "pdp_price_display": "2599.00",
+            "product_type": "Ethnic Suits"
+          },
+          "scrape_status": "success",
+          "local_folder": "womens_wear/7990071033909_Vark_Dusty_Blue_Anarkali_Ethnic_Set",
+          "images_folder": "womens_wear/7990071033909_Vark_Dusty_Blue_Anarkali_Ethnic_Set/images",
+          "scraped_at": "2025-12-09T11:40:19.567623+00:00"
+        },
+        {
+          "category": "womens_wear",
+          "product_number": "7990071099445",
+          "product_name": "Vark Teal Anarkali Ethnic Set",
+          "currency": "INR",
+          "price_raw": "2599.00",
+          "price_display": "2599.00",
+          "product_url": "https://www.westside.com/products/vark-teal-anarkali-ethnic-set-301041184",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_1.jpg?v=1761921351",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_1.jpg?v=1761921351",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_2.jpg?v=1761921352",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_3.jpg?v=1761921351",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_4.jpg?v=1761921350"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_1.jpg?v=1761921351",
+                "local_path": "womens_wear/7990071099445_Vark_Teal_Anarkali_Ethnic_Set/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_2.jpg?v=1761921352",
+                "local_path": "womens_wear/7990071099445_Vark_Teal_Anarkali_Ethnic_Set/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_3.jpg?v=1761921351",
+                "local_path": "womens_wear/7990071099445_Vark_Teal_Anarkali_Ethnic_Set/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301041184TEAL_4.jpg?v=1761921350",
+                "local_path": "womens_wear/7990071099445_Vark_Teal_Anarkali_Ethnic_Set/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Vark presents this teal ethnic set that brings a refined touch to festive dressing. The anarkali kurta is made from soft, breathable fabric and features a split neck with three-quarter sleeves for a graceful silhouette. It is paired with matching palazzos fitted with an elasticated waist for easy movement. The look is completed with a soft dupatta showcasing vivid bandhani prints, adding a vibrant accent to the ensemble."
+            ],
+            "designer": "Vark",
+            "pdp_price_display": "2599.00",
+            "product_type": "Ethnic Suits"
+          },
+          "scrape_status": "success",
+          "local_folder": "womens_wear/7990071099445_Vark_Teal_Anarkali_Ethnic_Set",
+          "images_folder": "womens_wear/7990071099445_Vark_Teal_Anarkali_Ethnic_Set/images",
+          "scraped_at": "2025-12-09T11:40:19.661161+00:00"
+        },
+        {
+          "category": "womens_wear",
+          "product_number": "7965931012149",
+          "product_name": "Vark Dark Blue Sequin Embellished Straight Ethnic Set",
+          "currency": "INR",
+          "price_raw": "3299.00",
+          "price_display": "3299.00",
+          "product_url": "https://www.westside.com/products/vark-dark-blue-sequin-embellished-straight-ethnic-set-301033976",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_3.jpg?v=1758815334",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_1.jpg?v=1758815333",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_2.jpg?v=1758815333",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_3.jpg?v=1758815334",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_4.jpg?v=1758815332"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_1.jpg?v=1758815333",
+                "local_path": "womens_wear/7965931012149_Vark_Dark_Blue_Sequin_Embellished_Straight_Ethnic_Set/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_2.jpg?v=1758815333",
+                "local_path": "womens_wear/7965931012149_Vark_Dark_Blue_Sequin_Embellished_Straight_Ethnic_Set/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_3.jpg?v=1758815334",
+                "local_path": "womens_wear/7965931012149_Vark_Dark_Blue_Sequin_Embellished_Straight_Ethnic_Set/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301033976COBALT_4.jpg?v=1758815332",
+                "local_path": "womens_wear/7965931012149_Vark_Dark_Blue_Sequin_Embellished_Straight_Ethnic_Set/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Boost your festive assortment with this dark blue ethnic set from Vark. The kurta dazzles with intricate sequin work and delicate zari embroidery. Coordinated ghararas feature an embellished overlay, adding drama and flair, while an elasticated waistband ensures comfort and ease of movement. Paired with a sheer net dupatta, this ensemble combines festive sparkle with graceful sophistication."
+            ],
+            "designer": "Vark",
+            "pdp_price_display": "3299.00",
+            "product_type": "Ethnic Suits"
+          },
+          "scrape_status": "success",
+          "local_folder": "womens_wear/7965931012149_Vark_Dark_Blue_Sequin_Embellished_Straight_Ethnic_Set",
+          "images_folder": "womens_wear/7965931012149_Vark_Dark_Blue_Sequin_Embellished_Straight_Ethnic_Set/images",
+          "scraped_at": "2025-12-09T11:40:19.755115+00:00"
+        },
+        {
+          "category": "womens_wear",
+          "product_number": "7916854902837",
+          "product_name": "Vark Blue Embroidered Ethnic Vest Top",
+          "currency": "INR",
+          "price_raw": "1593.00",
+          "price_display": "1593.00",
+          "product_url": "https://www.westside.com/products/vark-blue-embroidered-ethnic-vest-top-301018016",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_FLatly_1.jpg?v=1750084146",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_1.jpg?v=1749745649",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_2.jpg?v=1749745648",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_3.jpg?v=1749745650",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_4.jpg?v=1749745648",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_FLatly_1.jpg?v=1750084146"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_1.jpg?v=1749745649",
+                "local_path": "womens_wear/7916854902837_Vark_Blue_Embroidered_Ethnic_Vest_Top/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_2.jpg?v=1749745648",
+                "local_path": "womens_wear/7916854902837_Vark_Blue_Embroidered_Ethnic_Vest_Top/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_3.jpg?v=1749745650",
+                "local_path": "womens_wear/7916854902837_Vark_Blue_Embroidered_Ethnic_Vest_Top/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_4.jpg?v=1749745648",
+                "local_path": "womens_wear/7916854902837_Vark_Blue_Embroidered_Ethnic_Vest_Top/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              },
+              {
+                "index": 5,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301018016COBALT_FLatly_1.jpg?v=1750084146",
+                "local_path": "womens_wear/7916854902837_Vark_Blue_Embroidered_Ethnic_Vest_Top/images/image_005.jpg",
+                "filename": "image_005.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Unveil a unique look with this blue ethnic vest top from Vark, adorned with charming sea life embroidered detailing. Spun from an ultra-lightweight fabric, this top ensures effortless comfort and a flowing feel. It boasts a flattering V-neck and a sleeveless cut, making it a standalone statement for your ethnic wear collection."
+            ],
+            "designer": "Vark",
+            "pdp_price_display": "1593.00",
+            "product_type": "Ethnic Tops"
+          },
+          "scrape_status": "success",
+          "local_folder": "womens_wear/7916854902837_Vark_Blue_Embroidered_Ethnic_Vest_Top",
+          "images_folder": "womens_wear/7916854902837_Vark_Blue_Embroidered_Ethnic_Vest_Top/images",
+          "scraped_at": "2025-12-09T11:40:19.928187+00:00"
+        },
+        {
+          "category": "womens_wear",
+          "product_number": "7963018821685",
+          "product_name": "Vark Blue Geometric Pattern Maxi Skirt",
+          "currency": "INR",
+          "price_raw": "2437.00",
+          "price_display": "2437.00",
+          "product_url": "https://www.westside.com/products/vark-blue-geometric-pattern-maxi-skirt-301032768",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_3.jpg?v=1758212373",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_1.jpg?v=1758212372",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_2.jpg?v=1758212373",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_3.jpg?v=1758212373",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_4.jpg?v=1758212373"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_1.jpg?v=1758212372",
+                "local_path": "womens_wear/7963018821685_Vark_Blue_Geometric_Pattern_Maxi_Skirt/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_2.jpg?v=1758212373",
+                "local_path": "womens_wear/7963018821685_Vark_Blue_Geometric_Pattern_Maxi_Skirt/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_3.jpg?v=1758212373",
+                "local_path": "womens_wear/7963018821685_Vark_Blue_Geometric_Pattern_Maxi_Skirt/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301032768COBALT_4.jpg?v=1758212373",
+                "local_path": "womens_wear/7963018821685_Vark_Blue_Geometric_Pattern_Maxi_Skirt/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Give your festive capsule a stylish upgrade with this blue skirt from Vark, adorned with contrasting geometric motifs and delicate embellishments that exude refined elegance. Designed with a smooth elastic waistband and practical side pockets, this full-length creation balances effortless comfort with statement-making style."
+            ],
+            "designer": "Vark",
+            "pdp_price_display": "2437.00",
+            "product_type": "Skirts"
+          },
+          "scrape_status": "success",
+          "local_folder": "womens_wear/7963018821685_Vark_Blue_Geometric_Pattern_Maxi_Skirt",
+          "images_folder": "womens_wear/7963018821685_Vark_Blue_Geometric_Pattern_Maxi_Skirt/images",
+          "scraped_at": "2025-12-09T11:40:20.029248+00:00"
+        }
+      ]
+    },
+    "shoes": {
+      "category_name": "shoes",
+      "url": "https://www.westside.com/collections/comfort-footwear",
+      "products_count": 6,
+      "local_folder": "shoes",
+      "products": [
+        {
+          "category": "shoes",
+          "product_number": "8002467790901",
+          "product_name": "LUNA BLU Dark Brown Criss-Cross Heel Sandals",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/luna-blu-dark-brown-criss-cross-heel-sandals-301047450",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047450BROWN_2.jpg?v=1764253778",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047450BROWN_1.jpg?v=1764253778",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047450BROWN_2.jpg?v=1764253778",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047450BROWN_3.jpg?v=1764253780"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047450BROWN_1.jpg?v=1764253778",
+                "local_path": "shoes/8002467790901_LUNA_BLU_Dark_Brown_Criss-Cross_Heel_Sandals/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047450BROWN_2.jpg?v=1764253778",
+                "local_path": "shoes/8002467790901_LUNA_BLU_Dark_Brown_Criss-Cross_Heel_Sandals/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047450BROWN_3.jpg?v=1764253780",
+                "local_path": "shoes/8002467790901_LUNA_BLU_Dark_Brown_Criss-Cross_Heel_Sandals/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Crafted for understated sophistication, these dark brown sandals from Luna Blu feature broad criss-cross straps adorned with a metallic buckle accent. The cushioned insole and wedge heel offer subtle height and comfort, while the textured outsole grounds the look in timeless functionality."
+            ],
+            "designer": "LUNA BLU",
+            "pdp_price_display": "1499.00",
+            "product_type": "Comfort Sandals"
+          },
+          "scrape_status": "success",
+          "local_folder": "shoes/8002467790901_LUNA_BLU_Dark_Brown_Criss-Cross_Heel_Sandals",
+          "images_folder": "shoes/8002467790901_LUNA_BLU_Dark_Brown_Criss-Cross_Heel_Sandals/images",
+          "scraped_at": "2025-12-09T11:40:20.259054+00:00"
+        },
+        {
+          "category": "shoes",
+          "product_number": "8002467823669",
+          "product_name": "LUNA BLU Ivory Comfort Sandals",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/luna-blu-ivory-comfort-sandals-301047446",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047446IVORY_2.jpg?v=1764253778",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047446IVORY_1.jpg?v=1764253778",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047446IVORY_2.jpg?v=1764253778",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047446IVORY_3.jpg?v=1764253779"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047446IVORY_1.jpg?v=1764253778",
+                "local_path": "shoes/8002467823669_LUNA_BLU_Ivory_Comfort_Sandals/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047446IVORY_2.jpg?v=1764253778",
+                "local_path": "shoes/8002467823669_LUNA_BLU_Ivory_Comfort_Sandals/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301047446IVORY_3.jpg?v=1764253779",
+                "local_path": "shoes/8002467823669_LUNA_BLU_Ivory_Comfort_Sandals/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Redefining simplicity, these ivory comfort sandals from Luna Blu feature broad straps accented with a sleek buckle detail. The cushioned insole and low wedge heel deliver soft elevation without compromising ease, while the textured outsole ensures steady footing\u2014perfect for polished everyday dressing."
+            ],
+            "designer": "LUNA BLU",
+            "pdp_price_display": "1499.00",
+            "product_type": "Comfort Sandals"
+          },
+          "scrape_status": "success",
+          "local_folder": "shoes/8002467823669_LUNA_BLU_Ivory_Comfort_Sandals",
+          "images_folder": "shoes/8002467823669_LUNA_BLU_Ivory_Comfort_Sandals/images",
+          "scraped_at": "2025-12-09T11:40:20.329480+00:00"
+        },
+        {
+          "category": "shoes",
+          "product_number": "7934098145333",
+          "product_name": "LUNA BLU Black Criss-Cross Detailed Slip-On Comfort Sandals",
+          "currency": "INR",
+          "price_raw": "1334.00",
+          "price_display": "1334.00",
+          "product_url": "https://www.westside.com/products/luna-blu-black-criss-cross-detailed-slip-on-comfort-sandals-301020937",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301020937BLACK_1.jpg?v=1757334725",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301020937BLACK_2.jpg?v=1757334725",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301020937BLACK_1.jpg?v=1757334725",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301020937BLACK_3.jpg?v=1757334725"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301020937BLACK_2.jpg?v=1757334725",
+                "local_path": "shoes/7934098145333_LUNA_BLU_Black_Criss-Cross_Detailed_Slip-On_Comfort_Sandals/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301020937BLACK_1.jpg?v=1757334725",
+                "local_path": "shoes/7934098145333_LUNA_BLU_Black_Criss-Cross_Detailed_Slip-On_Comfort_Sandals/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301020937BLACK_3.jpg?v=1757334725",
+                "local_path": "shoes/7934098145333_LUNA_BLU_Black_Criss-Cross_Detailed_Slip-On_Comfort_Sandals/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Step into refined ease with these black slip-on sandals from Luna Blu. Featuring dual criss-cross straps enhanced by buckle detailing, these sandals are a testament to modern design. Experience unparalleled comfort with their responsive cushioned footbed and confident strides thanks to the robust textured outsoles that ensure optimal grip."
+            ],
+            "designer": "LUNA BLU",
+            "pdp_price_display": "1334.00",
+            "product_type": "Comfort Sandals"
+          },
+          "scrape_status": "success",
+          "local_folder": "shoes/7934098145333_LUNA_BLU_Black_Criss-Cross_Detailed_Slip-On_Comfort_Sandals",
+          "images_folder": "shoes/7934098145333_LUNA_BLU_Black_Criss-Cross_Detailed_Slip-On_Comfort_Sandals/images",
+          "scraped_at": "2025-12-09T11:40:20.403857+00:00"
+        },
+        {
+          "category": "shoes",
+          "product_number": "7986746392629",
+          "product_name": "LUNA BLU Gold Slip-On Comfort Sandals",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/luna-blu-gold-slip-on-comfort-sandals-301027595",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301027595GOLD_3.jpg?v=1761710975",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301027595GOLD_1.jpg?v=1761710978",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301027595GOLD_2.jpg?v=1761710974",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301027595GOLD_3.jpg?v=1761710975"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301027595GOLD_1.jpg?v=1761710978",
+                "local_path": "shoes/7986746392629_LUNA_BLU_Gold_Slip-On_Comfort_Sandals/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301027595GOLD_2.jpg?v=1761710974",
+                "local_path": "shoes/7986746392629_LUNA_BLU_Gold_Slip-On_Comfort_Sandals/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301027595GOLD_3.jpg?v=1761710975",
+                "local_path": "shoes/7986746392629_LUNA_BLU_Gold_Slip-On_Comfort_Sandals/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Gleaming in metallic tones, these gold comfort sandals from Luna Blu bring a celebratory touch to an everyday silhouette. The dual-strap design is finished with polished buckles, adding definition and structure to the look. A cushioned footbed ensures comfort through long hours of wear, while a textured outsole provides reliable grip."
+            ],
+            "designer": "LUNA BLU",
+            "pdp_price_display": "1499.00",
+            "product_type": "Comfort Sandals"
+          },
+          "scrape_status": "success",
+          "local_folder": "shoes/7986746392629_LUNA_BLU_Gold_Slip-On_Comfort_Sandals",
+          "images_folder": "shoes/7986746392629_LUNA_BLU_Gold_Slip-On_Comfort_Sandals/images",
+          "scraped_at": "2025-12-09T11:40:20.479390+00:00"
+        },
+        {
+          "category": "shoes",
+          "product_number": "7986746327093",
+          "product_name": "LUNA BLU Tan Dual-Strap Slip-On Comfort Sandals",
+          "currency": "INR",
+          "price_raw": "1499.00",
+          "price_display": "1499.00",
+          "product_url": "https://www.westside.com/products/luna-blu-tan-dual-strap-slip-on-comfort-sandals-301037119",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301037119TAN_3.jpg?v=1764152881",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/Westside-Luna-Blu-Footwear-Batch-4-BG-Removed-129.jpg?v=1764152881",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301037119TAN_1.jpg?v=1764152881",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301037119TAN_2.jpg?v=1764152881",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301037119TAN_3.jpg?v=1764152881"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/Westside-Luna-Blu-Footwear-Batch-4-BG-Removed-129.jpg?v=1764152881",
+                "local_path": "shoes/7986746327093_LUNA_BLU_Tan_Dual-Strap_Slip-On_Comfort_Sandals/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301037119TAN_1.jpg?v=1764152881",
+                "local_path": "shoes/7986746327093_LUNA_BLU_Tan_Dual-Strap_Slip-On_Comfort_Sandals/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301037119TAN_2.jpg?v=1764152881",
+                "local_path": "shoes/7986746327093_LUNA_BLU_Tan_Dual-Strap_Slip-On_Comfort_Sandals/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              },
+              {
+                "index": 4,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301037119TAN_3.jpg?v=1764152881",
+                "local_path": "shoes/7986746327093_LUNA_BLU_Tan_Dual-Strap_Slip-On_Comfort_Sandals/images/image_004.jpg",
+                "filename": "image_004.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Bring effortless ease to your everyday style with these tan sandals from Luna Blu. Defined by dual straps accented with metallic buckles, they offer a balance of comfort and contemporary flair. The cushioned sole provides lasting support, making them a stylish pick for day-to-evening versatility."
+            ],
+            "designer": "LUNA BLU",
+            "pdp_price_display": "1499.00",
+            "product_type": "Comfort Sandals"
+          },
+          "scrape_status": "success",
+          "local_folder": "shoes/7986746327093_LUNA_BLU_Tan_Dual-Strap_Slip-On_Comfort_Sandals",
+          "images_folder": "shoes/7986746327093_LUNA_BLU_Tan_Dual-Strap_Slip-On_Comfort_Sandals/images",
+          "scraped_at": "2025-12-09T11:40:20.553246+00:00"
+        },
+        {
+          "category": "shoes",
+          "product_number": "7966116053045",
+          "product_name": "LUNA BLU Ivory Buckle-Detailed Comfort Sandals - Exclusive",
+          "currency": "INR",
+          "price_raw": "1156.00",
+          "price_display": "1156.00",
+          "product_url": "https://www.westside.com/products/luna-blu-ivory-buckle-detailed-comfort-sandals-exclusive-301042072",
+          "thumbnail_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042072IVORY_1_3bc17939-f734-4c62-8e28-eb1188660fc3.jpg?v=1758915332",
+          "detail": {
+            "images": [
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042072IVORY_1_3bc17939-f734-4c62-8e28-eb1188660fc3.jpg?v=1758915332",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042072IVORY_2.jpg?v=1758915332",
+              "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042072IVORY_3.jpg?v=1758915332"
+            ],
+            "downloaded_images": [
+              {
+                "index": 1,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042072IVORY_1_3bc17939-f734-4c62-8e28-eb1188660fc3.jpg?v=1758915332",
+                "local_path": "shoes/7966116053045_LUNA_BLU_Ivory_Buckle-Detailed_Comfort_Sandals_-_Exclusive/images/image_001.jpg",
+                "filename": "image_001.jpg"
+              },
+              {
+                "index": 2,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042072IVORY_2.jpg?v=1758915332",
+                "local_path": "shoes/7966116053045_LUNA_BLU_Ivory_Buckle-Detailed_Comfort_Sandals_-_Exclusive/images/image_002.jpg",
+                "filename": "image_002.jpg"
+              },
+              {
+                "index": 3,
+                "original_url": "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/301042072IVORY_3.jpg?v=1758915332",
+                "local_path": "shoes/7966116053045_LUNA_BLU_Ivory_Buckle-Detailed_Comfort_Sandals_-_Exclusive/images/image_003.jpg",
+                "filename": "image_003.jpg"
+              }
+            ],
+            "details_paragraphs": [
+              "Step into everyday ease with these ivory comfort sandals from Luna Blu, styled with a contoured cork footbed for lasting comfort. Designed with a single wide strap in smooth faux leather, the pair is finished with a polished gold-tone buckle for adjustable fit and a refined touch. Balanced on a sturdy sole with a clean neutral palette, they blend functional support with modern simplicity, perfect for casual wear."
+            ],
+            "designer": "LUNA BLU",
+            "pdp_price_display": "1156.00",
+            "product_type": "Comfort Sandals"
+          },
+          "scrape_status": "success",
+          "local_folder": "shoes/7966116053045_LUNA_BLU_Ivory_Buckle-Detailed_Comfort_Sandals_-_Exclusive",
+          "images_folder": "shoes/7966116053045_LUNA_BLU_Ivory_Buckle-Detailed_Comfort_Sandals_-_Exclusive/images",
+          "scraped_at": "2025-12-09T11:40:20.630593+00:00"
+        }
+      ]
+    }
+  }
+}
