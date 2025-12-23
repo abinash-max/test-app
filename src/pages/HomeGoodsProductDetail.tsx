@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import { ArrowLeft, Sparkles, Loader2, Upload, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 import masterData from "../../master.json";
@@ -23,8 +24,10 @@ const HomeGoodsProductDetail = () => {
   const [product, setProduct] = useState<Product | null>(null);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
-  const [generatedImages, setGeneratedImages] = useState<string[]>([]);
+  const [generatedImages, setGeneratedImages] = useState<(string | null)[]>([]);
   const [isGenerating, setIsGenerating] = useState(false);
+  const [generatingIndex, setGeneratingIndex] = useState<Set<number>>(new Set());
+  const [selectedImage, setSelectedImage] = useState<{ url: string; index: number; isGenerated: boolean } | null>(null);
 
   useEffect(() => {
     // Try to get product from location state first (if navigated from HomeGoods page)
@@ -173,67 +176,90 @@ const HomeGoodsProductDetail = () => {
 
     setIsGenerating(true);
     setGeneratedImages([]);
+    setGeneratingIndex(new Set(product.detail.images.map((_, i) => i)));
 
     try {
       if (!uploadedFile) {
         toast.error("Please upload a room image file");
         setIsGenerating(false);
+        setGeneratingIndex(new Set());
         return;
       }
 
       const roomType = getRoomType(category || "");
       
-      // Create parallel API calls for all product images
-      const apiCalls = product.detail.images.map(async (objectUrl) => {
-        const formData = new FormData();
-        formData.append("room_type", roomType);
-        formData.append("room_image", uploadedFile);
-        formData.append("room_url", "");
-        formData.append("object_image", "");
-        formData.append("object_url", objectUrl);
+      // Create parallel API calls for all product images with index tracking
+      const apiCalls = product.detail.images.map(async (objectUrl, index) => {
+        try {
+          const formData = new FormData();
+          formData.append("room_type", roomType);
+          formData.append("room_image", uploadedFile);
+          formData.append("room_url", "");
+          formData.append("object_image", "");
+          formData.append("object_url", objectUrl);
 
-        const response = await fetch("https://hp.gennoctua.com/api/gen/generate-room", {
-          method: "POST",
-          body: formData,
-        });
+          const response = await fetch("https://hp.gennoctua.com/api/gen/generate-room", {
+            method: "POST",
+            body: formData,
+          });
 
-        if (!response.ok) {
-          const errorText = await response.text();
-          console.error(`API call failed for image: ${objectUrl}`, errorText);
-          throw new Error(`API call failed: ${response.status} ${response.statusText}`);
-        }
+          if (!response.ok) {
+            const errorText = await response.text();
+            console.error(`API call failed for image ${index}: ${objectUrl}`, errorText);
+            return { index, result: null, error: true };
+          }
 
-        // Check if response is JSON or image
-        const contentType = response.headers.get("content-type");
-        if (contentType && contentType.includes("application/json")) {
-          const data = await response.json();
-          // Try multiple possible response fields
-          return data.result || data.image || data.url || data.generated_image || data.output || data.result_url || "";
-        } else {
-          // If it's an image, convert to blob URL
-          const blob = await response.blob();
-          return URL.createObjectURL(blob);
+          // Check if response is JSON or image
+          const contentType = response.headers.get("content-type");
+          let resultUrl = "";
+          
+          if (contentType && contentType.includes("application/json")) {
+            const data = await response.json();
+            resultUrl = data.result || data.image || data.url || data.generated_image || data.output || data.result_url || "";
+          } else {
+            // If it's an image, convert to blob URL
+            const blob = await response.blob();
+            resultUrl = URL.createObjectURL(blob);
+          }
+
+          return { index, result: resultUrl, error: false };
+        } catch (error) {
+          console.error(`Error generating image ${index}:`, error);
+          return { index, result: null, error: true };
         }
       });
 
-      // Wait for all API calls to complete
-      const results = await Promise.all(apiCalls);
+      // Wait for all API calls to complete (using allSettled to handle failures gracefully)
+      const results = await Promise.allSettled(apiCalls);
       
-      // Filter out empty results
-      const validResults = results.filter((url) => url && url.trim() !== "");
+      // Process results and create array matching catalog image positions
+      const newGeneratedImages: (string | null)[] = new Array(product.detail.images.length).fill(null);
+      let successCount = 0;
       
-      setGeneratedImages(validResults);
+      results.forEach((result) => {
+        if (result.status === "fulfilled") {
+          const { index, result: imageUrl, error } = result.value;
+          if (!error && imageUrl && imageUrl.trim() !== "") {
+            newGeneratedImages[index] = imageUrl;
+            successCount++;
+          }
+        }
+      });
+      
+      setGeneratedImages(newGeneratedImages);
       setIsGenerating(false);
+      setGeneratingIndex(new Set());
       
-      if (validResults.length > 0) {
-        toast.success(`Successfully generated ${validResults.length} image(s)`);
+      if (successCount > 0) {
+        toast.success(`Successfully generated ${successCount} out of ${product.detail.images.length} image(s)`);
       } else {
-        toast.error("No images were generated. Please check the API response format.");
+        toast.error("No images were generated. Please try again.");
       }
     } catch (error) {
       console.error("Error generating images:", error);
       toast.error("Failed to generate images. Please try again.");
       setIsGenerating(false);
+      setGeneratingIndex(new Set());
     }
   };
 
@@ -310,52 +336,100 @@ const HomeGoodsProductDetail = () => {
               )}
             </div>
 
-            {/* Generated Images */}
-            {generatedImages.length > 0 && (
-              <div className="space-y-4 mb-8">
-                <h2 className="text-lg font-semibold text-foreground mb-4">
-                  Generated Images
-                </h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {generatedImages.map((imageUrl, index) => (
-                    <div
-                      key={index}
-                      className="aspect-square rounded-lg overflow-hidden border-2 border-primary bg-secondary/30 hover:border-primary/80 transition-smooth"
-                    >
-                      <img
-                        src={imageUrl}
-                        alt={`Generated Image ${index + 1}`}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
             {/* Product Images */}
             <div className="space-y-4">
               <h2 className="text-lg font-semibold text-foreground mb-4">
-                Product Images
+                {generatedImages.some(img => img !== null && img !== undefined && img.trim() !== "") ? "Generated Images" : "Product Images"}
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {product.detail?.images?.map((imageUrl, index) => (
-                  <div
-                    key={index}
-                    className="aspect-square rounded-lg overflow-hidden border-2 border-border bg-secondary/30 hover:border-primary transition-smooth"
-                  >
-                    <img
-                      src={imageUrl}
-                      alt={`${product.product_name} - Image ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                ))}
+                {product.detail?.images?.map((imageUrl, index) => {
+                  const generatedImage = generatedImages[index];
+                  const isGeneratingThis = generatingIndex.has(index);
+                  const showGenerated = generatedImage !== null && generatedImage !== undefined && generatedImage.trim() !== "" && !isGeneratingThis;
+                  
+                  return (
+                    <div
+                      key={index}
+                      onClick={() => {
+                        const imageToShow = showGenerated && generatedImage ? generatedImage : imageUrl;
+                        setSelectedImage({
+                          url: imageToShow,
+                          index,
+                          isGenerated: showGenerated
+                        });
+                      }}
+                      className={`aspect-square rounded-lg overflow-hidden border-2 bg-secondary/30 hover:border-primary transition-smooth relative cursor-pointer ${
+                        showGenerated ? "border-primary" : "border-border"
+                      }`}
+                    >
+                      {isGeneratingThis ? (
+                        <div className="w-full h-full flex items-center justify-center bg-secondary/50">
+                          <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                        </div>
+                      ) : showGenerated && generatedImage ? (
+                        <img
+                          src={generatedImage}
+                          alt={`${product.product_name} - Image ${index + 1} (Generated)`}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                          onError={(e) => {
+                            console.error(`Failed to load generated image ${index}:`, generatedImage);
+                            e.currentTarget.src = imageUrl;
+                          }}
+                        />
+                      ) : imageUrl ? (
+                        <img
+                          src={imageUrl}
+                          alt={`${product.product_name} - Image ${index + 1}`}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                          onError={(e) => {
+                            console.error(`Failed to load image ${index}:`, imageUrl);
+                            e.currentTarget.style.display = 'none';
+                            const parent = e.currentTarget.parentElement;
+                            if (parent) {
+                              parent.innerHTML = '<div class="w-full h-full flex items-center justify-center text-muted-foreground text-sm">Image not available</div>';
+                            }
+                          }}
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center text-muted-foreground text-sm">
+                          No image
+                        </div>
+                      )}
+                      {showGenerated && (
+                        <div className="absolute top-2 left-2 px-2 py-1 rounded-md bg-primary/90 text-primary-foreground text-xs font-medium">
+                          Generated
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Image Lightbox Modal */}
+      <Dialog open={selectedImage !== null} onOpenChange={(open) => !open && setSelectedImage(null)}>
+        <DialogContent className="max-w-4xl w-full p-0 bg-transparent border-0">
+          {selectedImage && (
+            <div className="relative w-full h-full">
+              <img
+                src={selectedImage.url}
+                alt={`${product.product_name} - Image ${selectedImage.index + 1}${selectedImage.isGenerated ? " (Generated)" : ""}`}
+                className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
+              />
+              {selectedImage.isGenerated && (
+                <div className="absolute top-4 left-4 px-3 py-1 rounded-md bg-primary/90 text-primary-foreground text-sm font-medium">
+                  Generated
+                </div>
+              )}
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
