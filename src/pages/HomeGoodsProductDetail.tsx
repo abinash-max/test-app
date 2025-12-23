@@ -287,7 +287,7 @@ const HomeGoodsProductDetail = () => {
               <Button
                 variant="personalize"
                 size="xl"
-                className="w-full"
+                className="w-full disabled:opacity-50 disabled:cursor-not-allowed"
                 onClick={handlePersonalize}
                 disabled={!uploadedImage || isGenerating}
               >
@@ -303,6 +303,11 @@ const HomeGoodsProductDetail = () => {
                   </>
                 )}
               </Button>
+              {!uploadedImage && (
+                <p className="text-xs text-muted-foreground mt-2 text-center">
+                  Please upload an image to enable personalization
+                </p>
+              )}
             </div>
 
             {/* Generated Images */}
